@@ -1,0 +1,52 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.27/Modules/BasicConfigVersion-SameMajorVersion.cmake.in
+C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeCInformation.cmake
+C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeCXXInformation.cmake
+C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeCommonLanguageInclude.cmake
+C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDependentOption.cmake
+C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeGenericSystem.cmake
+C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeInitializeConfigs.cmake
+C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeLanguageInformation.cmake
+C:/Program Files/CMake/share/cmake-3.27/Modules/CMakePackageConfigHelpers.cmake
+C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeParseImplicitLinkInfo.cmake
+C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeRCInformation.cmake
+C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeSystemSpecificInformation.cmake
+C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeSystemSpecificInitialize.cmake
+C:/Program Files/CMake/share/cmake-3.27/Modules/CPack.cmake
+C:/Program Files/CMake/share/cmake-3.27/Modules/CPackComponent.cmake
+C:/Program Files/CMake/share/cmake-3.27/Modules/CheckCSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-3.27/Modules/CheckIncludeFile.cmake
+C:/Program Files/CMake/share/cmake-3.27/Modules/CheckLibraryExists.cmake
+C:/Program Files/CMake/share/cmake-3.27/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+C:/Program Files/CMake/share/cmake-3.27/Modules/Compiler/MSVC-C.cmake
+C:/Program Files/CMake/share/cmake-3.27/Modules/Compiler/MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-3.27/Modules/Compiler/MSVC.cmake
+C:/Program Files/CMake/share/cmake-3.27/Modules/FindOpenMP.cmake
+C:/Program Files/CMake/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.27/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.27/Modules/FindThreads.cmake
+C:/Program Files/CMake/share/cmake-3.27/Modules/InstallRequiredSystemLibraries.cmake
+C:/Program Files/CMake/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-3.27/Modules/Platform/Windows-Initialize.cmake
+C:/Program Files/CMake/share/cmake-3.27/Modules/Platform/Windows-MSVC-C.cmake
+C:/Program Files/CMake/share/cmake-3.27/Modules/Platform/Windows-MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-3.27/Modules/Platform/Windows-MSVC.cmake
+C:/Program Files/CMake/share/cmake-3.27/Modules/Platform/Windows.cmake
+C:/Program Files/CMake/share/cmake-3.27/Modules/Platform/WindowsPaths.cmake
+C:/Program Files/CMake/share/cmake-3.27/Modules/SelectLibraryConfigurations.cmake
+C:/Program Files/CMake/share/cmake-3.27/Modules/WriteBasicConfigVersionFile.cmake
+C:/Program Files/CMake/share/cmake-3.27/Templates/CPackConfig.cmake.in
+C:/opencv/build/x64/vc14/lib/OpenCVConfig-version.cmake
+C:/opencv/build/x64/vc14/lib/OpenCVConfig.cmake
+C:/opencv/build/x64/vc14/lib/OpenCVModules-debug.cmake
+C:/opencv/build/x64/vc14/lib/OpenCVModules-release.cmake
+C:/opencv/build/x64/vc14/lib/OpenCVModules.cmake
+D:/Yolov4Website/darknet/CMakeFiles/3.27.7/CMakeCCompiler.cmake
+D:/Yolov4Website/darknet/CMakeFiles/3.27.7/CMakeCXXCompiler.cmake
+D:/Yolov4Website/darknet/CMakeFiles/3.27.7/CMakeRCCompiler.cmake
+D:/Yolov4Website/darknet/CMakeFiles/3.27.7/CMakeSystem.cmake
+D:/Yolov4Website/darknet/CMakeLists.txt
+D:/Yolov4Website/darknet/DarknetConfig.cmake.in
+D:/Yolov4Website/darknet/cmake/Modules/FindPThreads4W.cmake
+D:/Yolov4Website/darknet/cmake/Modules/FindStb.cmake
+D:/Yolov4Website/darknet/src/version.h.in

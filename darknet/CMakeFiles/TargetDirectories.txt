@@ -1,0 +1,8 @@
+D:/Yolov4Website/darknet/CMakeFiles/dark.dir
+D:/Yolov4Website/darknet/CMakeFiles/uselib.dir
+D:/Yolov4Website/darknet/CMakeFiles/darknet.dir
+D:/Yolov4Website/darknet/CMakeFiles/kmeansiou.dir
+D:/Yolov4Website/darknet/CMakeFiles/PACKAGE.dir
+D:/Yolov4Website/darknet/CMakeFiles/INSTALL.dir
+D:/Yolov4Website/darknet/CMakeFiles/ALL_BUILD.dir
+D:/Yolov4Website/darknet/CMakeFiles/ZERO_CHECK.dir

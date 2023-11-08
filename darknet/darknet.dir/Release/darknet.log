@@ -1,0 +1,82 @@
+﻿  Building Custom Rule D:/Yolov4Website/darknet/CMakeLists.txt
+  darknet.c
+  activation_layer.c
+  activations.c
+  art.c
+  avgpool_layer.c
+  batchnorm_layer.c
+  blas.c
+  box.c
+  captcha.c
+  cifar.c
+  classifier.c
+  coco.c
+  col2im.c
+  compare.c
+  connected_layer.c
+  conv_lstm_layer.c
+  convolutional_layer.c
+  cost_layer.c
+  cpu_gemm.c
+  crnn_layer.c
+  Generating Code...
+  Compiling...
+  crop_layer.c
+  dark_cuda.c
+  data.c
+  deconvolutional_layer.c
+  demo.c
+  detection_layer.c
+  detector.c
+  dice.c
+  dropout_layer.c
+  gaussian_yolo_layer.c
+  gemm.c
+  gettimeofday.c
+  go.c
+  gru_layer.c
+  im2col.c
+  image.c
+  layer.c
+  list.c
+  local_layer.c
+  lstm_layer.c
+  Generating Code...
+  Compiling...
+  matrix.c
+  maxpool_layer.c
+  network.c
+  nightmare.c
+  normalization_layer.c
+  option_list.c
+  parser.c
+  region_layer.c
+  reorg_layer.c
+  reorg_old_layer.c
+  representation_layer.c
+  rnn.c
+  rnn_layer.c
+  rnn_vid.c
+  route_layer.c
+  sam_layer.c
+  scale_channels_layer.c
+  shortcut_layer.c
+  softmax_layer.c
+  super.c
+  Generating Code...
+  Compiling...
+  swag.c
+  tag.c
+  tree.c
+  upsample_layer.c
+  utils.c
+  voxel.c
+  writing.c
+  yolo.c
+  yolo_layer.c
+  getopt.c
+  Generating Code...
+  http_stream.cpp
+  image_opencv.cpp
+  Generating Code...
+  darknet.vcxproj -> D:\Yolov4Website\darknet\Release\darknet.exe

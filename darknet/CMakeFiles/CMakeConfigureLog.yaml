@@ -1,0 +1,641 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineSystem.cmake:211 (message)"
+      - "CMakeLists.txt:132 (project)"
+    message: |
+      The system is: Windows - 10.0.19045 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:132 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.7.2+d6990bcfa for .NET Framework
+      Build started 11/2/2023 12:49:59 AM.
+      
+      Project "D:\\Yolov4Website\\darknet\\CMakeFiles\\3.27.7\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Creating directory "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> D:\\Yolov4Website\\darknet\\CMakeFiles\\3.27.7\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Done Building Project "D:\\Yolov4Website\\darknet\\CMakeFiles\\3.27.7\\CompilerIdC\\CompilerIdC.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:01.92
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        D:/Yolov4Website/darknet/CMakeFiles/3.27.7/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:132 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.7.2+d6990bcfa for .NET Framework
+      Build started 11/2/2023 12:50:02 AM.
+      
+      Project "D:\\Yolov4Website\\darknet\\CMakeFiles\\3.27.7\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Creating directory "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> D:\\Yolov4Website\\darknet\\CMakeFiles\\3.27.7\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Done Building Project "D:\\Yolov4Website\\darknet\\CMakeFiles\\3.27.7\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:01.65
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        D:/Yolov4Website/darknet/CMakeFiles/3.27.7/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:132 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "D:/Yolov4Website/darknet/CMakeFiles/CMakeScratch/TryCompile-2ttdzs"
+      binary: "D:/Yolov4Website/darknet/CMakeFiles/CMakeScratch/TryCompile-2ttdzs"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Yolov4Website/darknet/CMakeFiles/CMakeScratch/TryCompile-2ttdzs'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_9f764.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.7.2+d6990bcfa for .NET Framework
+        Build started 11/2/2023 12:50:04 AM.
+        
+        Project "D:\\Yolov4Website\\darknet\\CMakeFiles\\CMakeScratch\\TryCompile-2ttdzs\\cmTC_9f764.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_9f764.dir\\Debug\\".
+          Creating directory "D:\\Yolov4Website\\darknet\\CMakeFiles\\CMakeScratch\\TryCompile-2ttdzs\\Debug\\".
+          Creating directory "cmTC_9f764.dir\\Debug\\cmTC_9f764.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_9f764.dir\\Debug\\cmTC_9f764.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_9f764.dir\\Debug\\cmTC_9f764.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9f764.dir\\Debug\\\\" /Fd"cmTC_9f764.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.37.32825 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          CMakeCCompilerABI.c
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9f764.dir\\Debug\\\\" /Fd"cmTC_9f764.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Yolov4Website\\darknet\\CMakeFiles\\CMakeScratch\\TryCompile-2ttdzs\\Debug\\cmTC_9f764.exe" /INCREMENTAL /ILK:"cmTC_9f764.dir\\Debug\\cmTC_9f764.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Yolov4Website/darknet/CMakeFiles/CMakeScratch/TryCompile-2ttdzs/Debug/cmTC_9f764.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Yolov4Website/darknet/CMakeFiles/CMakeScratch/TryCompile-2ttdzs/Debug/cmTC_9f764.lib" /MACHINE:X64  /machine:x64 cmTC_9f764.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_9f764.vcxproj -> D:\\Yolov4Website\\darknet\\CMakeFiles\\CMakeScratch\\TryCompile-2ttdzs\\Debug\\cmTC_9f764.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_9f764.dir\\Debug\\cmTC_9f764.tlog\\unsuccessfulbuild".
+          Touching "cmTC_9f764.dir\\Debug\\cmTC_9f764.tlog\\cmTC_9f764.lastbuildstate".
+        Done Building Project "D:\\Yolov4Website\\darknet\\CMakeFiles\\CMakeScratch\\TryCompile-2ttdzs\\cmTC_9f764.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:01.60
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:132 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "D:/Yolov4Website/darknet/CMakeFiles/CMakeScratch/TryCompile-lb9410"
+      binary: "D:/Yolov4Website/darknet/CMakeFiles/CMakeScratch/TryCompile-lb9410"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Yolov4Website/darknet/CMakeFiles/CMakeScratch/TryCompile-lb9410'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_4c6d6.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.7.2+d6990bcfa for .NET Framework
+        Build started 11/2/2023 12:50:06 AM.
+        
+        Project "D:\\Yolov4Website\\darknet\\CMakeFiles\\CMakeScratch\\TryCompile-lb9410\\cmTC_4c6d6.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_4c6d6.dir\\Debug\\".
+          Creating directory "D:\\Yolov4Website\\darknet\\CMakeFiles\\CMakeScratch\\TryCompile-lb9410\\Debug\\".
+          Creating directory "cmTC_4c6d6.dir\\Debug\\cmTC_4c6d6.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_4c6d6.dir\\Debug\\cmTC_4c6d6.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_4c6d6.dir\\Debug\\cmTC_4c6d6.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_4c6d6.dir\\Debug\\\\" /Fd"cmTC_4c6d6.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.37.32825 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          CMakeCXXCompilerABI.cpp
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_4c6d6.dir\\Debug\\\\" /Fd"cmTC_4c6d6.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Yolov4Website\\darknet\\CMakeFiles\\CMakeScratch\\TryCompile-lb9410\\Debug\\cmTC_4c6d6.exe" /INCREMENTAL /ILK:"cmTC_4c6d6.dir\\Debug\\cmTC_4c6d6.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Yolov4Website/darknet/CMakeFiles/CMakeScratch/TryCompile-lb9410/Debug/cmTC_4c6d6.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Yolov4Website/darknet/CMakeFiles/CMakeScratch/TryCompile-lb9410/Debug/cmTC_4c6d6.lib" /MACHINE:X64  /machine:x64 cmTC_4c6d6.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_4c6d6.vcxproj -> D:\\Yolov4Website\\darknet\\CMakeFiles\\CMakeScratch\\TryCompile-lb9410\\Debug\\cmTC_4c6d6.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_4c6d6.dir\\Debug\\cmTC_4c6d6.tlog\\unsuccessfulbuild".
+          Touching "cmTC_4c6d6.dir\\Debug\\cmTC_4c6d6.tlog\\cmTC_4c6d6.lastbuildstate".
+        Done Building Project "D:\\Yolov4Website\\darknet\\CMakeFiles\\CMakeScratch\\TryCompile-lb9410\\cmTC_4c6d6.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:01.59
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckLanguage.cmake:100 (message)"
+      - "CMakeLists.txt:184 (check_language)"
+    checks:
+      - "Looking for a CUDA compiler"
+    message: |
+      Looking for a CUDA compiler failed with the following output:
+      -- Selecting Windows SDK version 10.0.22621.0 to target Windows 10.0.19045.
+      CMake Error at C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:503 (message):
+        No CUDA toolset found.
+      Call Stack (most recent call first):
+        C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)
+        C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:53 (__determine_compiler_id_test)
+        C:/Program Files/CMake/share/cmake-3.27/Modules/CMakeDetermineCUDACompiler.cmake:307 (CMAKE_DETERMINE_COMPILER_ID)
+        CMakeLists.txt:2 (project)
+      
+      
+      -- Configuring incomplete, errors occurred!
+      
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "CMakeLists.txt:235 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "D:/Yolov4Website/darknet/CMakeFiles/CMakeScratch/TryCompile-ettoat"
+      binary: "D:/Yolov4Website/darknet/CMakeFiles/CMakeScratch/TryCompile-ettoat"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/Yolov4Website/darknet/cmake/Modules/"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Yolov4Website/darknet/CMakeFiles/CMakeScratch/TryCompile-ettoat'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_b0a15.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.7.2+d6990bcfa for .NET Framework
+        Build started 11/2/2023 12:58:03 AM.
+        
+        Project "D:\\Yolov4Website\\darknet\\CMakeFiles\\CMakeScratch\\TryCompile-ettoat\\cmTC_b0a15.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_b0a15.dir\\Debug\\".
+          Creating directory "D:\\Yolov4Website\\darknet\\CMakeFiles\\CMakeScratch\\TryCompile-ettoat\\Debug\\".
+          Creating directory "cmTC_b0a15.dir\\Debug\\cmTC_b0a15.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_b0a15.dir\\Debug\\cmTC_b0a15.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_b0a15.dir\\Debug\\cmTC_b0a15.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b0a15.dir\\Debug\\\\" /Fd"cmTC_b0a15.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\Yolov4Website\\darknet\\CMakeFiles\\CMakeScratch\\TryCompile-ettoat\\src.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.37.32825 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          src.c
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b0a15.dir\\Debug\\\\" /Fd"cmTC_b0a15.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\Yolov4Website\\darknet\\CMakeFiles\\CMakeScratch\\TryCompile-ettoat\\src.c"
+        D:\\Yolov4Website\\darknet\\CMakeFiles\\CMakeScratch\\TryCompile-ettoat\\src.c(1,10): fatal  error C1083: Cannot open include file: 'pthread.h': No such file or directory [D:\\Yolov4Website\\darknet\\CMakeFiles\\CMakeScratch\\TryCompile-ettoat\\cmTC_b0a15.vcxproj]
+        Done Building Project "D:\\Yolov4Website\\darknet\\CMakeFiles\\CMakeScratch\\TryCompile-ettoat\\cmTC_b0a15.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "D:\\Yolov4Website\\darknet\\CMakeFiles\\CMakeScratch\\TryCompile-ettoat\\cmTC_b0a15.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          D:\\Yolov4Website\\darknet\\CMakeFiles\\CMakeScratch\\TryCompile-ettoat\\src.c(1,10): fatal  error C1083: Cannot open include file: 'pthread.h': No such file or directory [D:\\Yolov4Website\\darknet\\CMakeFiles\\CMakeScratch\\TryCompile-ettoat\\cmTC_b0a15.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:01.55
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "CMakeLists.txt:235 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "D:/Yolov4Website/darknet/CMakeFiles/CMakeScratch/TryCompile-d8sj8j"
+      binary: "D:/Yolov4Website/darknet/CMakeFiles/CMakeScratch/TryCompile-d8sj8j"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/Yolov4Website/darknet/cmake/Modules/"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Yolov4Website/darknet/CMakeFiles/CMakeScratch/TryCompile-d8sj8j'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_fabde.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.7.2+d6990bcfa for .NET Framework
+        Build started 11/2/2023 12:58:05 AM.
+        
+        Project "D:\\Yolov4Website\\darknet\\CMakeFiles\\CMakeScratch\\TryCompile-d8sj8j\\cmTC_fabde.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_fabde.dir\\Debug\\".
+          Creating directory "D:\\Yolov4Website\\darknet\\CMakeFiles\\CMakeScratch\\TryCompile-d8sj8j\\Debug\\".
+          Creating directory "cmTC_fabde.dir\\Debug\\cmTC_fabde.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_fabde.dir\\Debug\\cmTC_fabde.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_fabde.dir\\Debug\\cmTC_fabde.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_fabde.dir\\Debug\\\\" /Fd"cmTC_fabde.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\Yolov4Website\\darknet\\CMakeFiles\\CMakeScratch\\TryCompile-d8sj8j\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.37.32825 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          CheckFunctionExists.c
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_fabde.dir\\Debug\\\\" /Fd"cmTC_fabde.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\Yolov4Website\\darknet\\CMakeFiles\\CMakeScratch\\TryCompile-d8sj8j\\CheckFunctionExists.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Yolov4Website\\darknet\\CMakeFiles\\CMakeScratch\\TryCompile-d8sj8j\\Debug\\cmTC_fabde.exe" /INCREMENTAL /ILK:"cmTC_fabde.dir\\Debug\\cmTC_fabde.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Yolov4Website/darknet/CMakeFiles/CMakeScratch/TryCompile-d8sj8j/Debug/cmTC_fabde.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Yolov4Website/darknet/CMakeFiles/CMakeScratch/TryCompile-d8sj8j/Debug/cmTC_fabde.lib" /MACHINE:X64  /machine:x64 cmTC_fabde.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [D:\\Yolov4Website\\darknet\\CMakeFiles\\CMakeScratch\\TryCompile-d8sj8j\\cmTC_fabde.vcxproj]
+        Done Building Project "D:\\Yolov4Website\\darknet\\CMakeFiles\\CMakeScratch\\TryCompile-d8sj8j\\cmTC_fabde.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "D:\\Yolov4Website\\darknet\\CMakeFiles\\CMakeScratch\\TryCompile-d8sj8j\\cmTC_fabde.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [D:\\Yolov4Website\\darknet\\CMakeFiles\\CMakeScratch\\TryCompile-d8sj8j\\cmTC_fabde.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:01.48
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "CMakeLists.txt:235 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "D:/Yolov4Website/darknet/CMakeFiles/CMakeScratch/TryCompile-ic5scz"
+      binary: "D:/Yolov4Website/darknet/CMakeFiles/CMakeScratch/TryCompile-ic5scz"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/Yolov4Website/darknet/cmake/Modules/"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Yolov4Website/darknet/CMakeFiles/CMakeScratch/TryCompile-ic5scz'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_3efb4.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.7.2+d6990bcfa for .NET Framework
+        Build started 11/2/2023 12:58:07 AM.
+        
+        Project "D:\\Yolov4Website\\darknet\\CMakeFiles\\CMakeScratch\\TryCompile-ic5scz\\cmTC_3efb4.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_3efb4.dir\\Debug\\".
+          Creating directory "D:\\Yolov4Website\\darknet\\CMakeFiles\\CMakeScratch\\TryCompile-ic5scz\\Debug\\".
+          Creating directory "cmTC_3efb4.dir\\Debug\\cmTC_3efb4.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_3efb4.dir\\Debug\\cmTC_3efb4.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_3efb4.dir\\Debug\\cmTC_3efb4.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3efb4.dir\\Debug\\\\" /Fd"cmTC_3efb4.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\Yolov4Website\\darknet\\CMakeFiles\\CMakeScratch\\TryCompile-ic5scz\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.37.32825 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          CheckFunctionExists.c
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3efb4.dir\\Debug\\\\" /Fd"cmTC_3efb4.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\Yolov4Website\\darknet\\CMakeFiles\\CMakeScratch\\TryCompile-ic5scz\\CheckFunctionExists.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Yolov4Website\\darknet\\CMakeFiles\\CMakeScratch\\TryCompile-ic5scz\\Debug\\cmTC_3efb4.exe" /INCREMENTAL /ILK:"cmTC_3efb4.dir\\Debug\\cmTC_3efb4.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Yolov4Website/darknet/CMakeFiles/CMakeScratch/TryCompile-ic5scz/Debug/cmTC_3efb4.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Yolov4Website/darknet/CMakeFiles/CMakeScratch/TryCompile-ic5scz/Debug/cmTC_3efb4.lib" /MACHINE:X64  /machine:x64 cmTC_3efb4.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthread.lib' [D:\\Yolov4Website\\darknet\\CMakeFiles\\CMakeScratch\\TryCompile-ic5scz\\cmTC_3efb4.vcxproj]
+        Done Building Project "D:\\Yolov4Website\\darknet\\CMakeFiles\\CMakeScratch\\TryCompile-ic5scz\\cmTC_3efb4.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "D:\\Yolov4Website\\darknet\\CMakeFiles\\CMakeScratch\\TryCompile-ic5scz\\cmTC_3efb4.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          LINK : fatal error LNK1104: cannot open file 'pthread.lib' [D:\\Yolov4Website\\darknet\\CMakeFiles\\CMakeScratch\\TryCompile-ic5scz\\cmTC_3efb4.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:01.46
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/FindOpenMP.cmake:219 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/FindOpenMP.cmake:483 (_OPENMP_GET_FLAGS)"
+      - "CMakeLists.txt:274 (find_package)"
+    description: "Detecting C OpenMP compiler info"
+    directories:
+      source: "D:/Yolov4Website/darknet/CMakeFiles/CMakeScratch/TryCompile-zeah0y"
+      binary: "D:/Yolov4Website/darknet/CMakeFiles/CMakeScratch/TryCompile-zeah0y"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/Yolov4Website/darknet/cmake/Modules/"
+    buildResult:
+      variable: "OpenMP_COMPILE_RESULT_C_openmp"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Yolov4Website/darknet/CMakeFiles/CMakeScratch/TryCompile-zeah0y'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_64f26.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.7.2+d6990bcfa for .NET Framework
+        Build started 11/2/2023 12:58:09 AM.
+        
+        Project "D:\\Yolov4Website\\darknet\\CMakeFiles\\CMakeScratch\\TryCompile-zeah0y\\cmTC_64f26.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_64f26.dir\\Debug\\".
+          Creating directory "D:\\Yolov4Website\\darknet\\CMakeFiles\\CMakeScratch\\TryCompile-zeah0y\\Debug\\".
+          Creating directory "cmTC_64f26.dir\\Debug\\cmTC_64f26.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_64f26.dir\\Debug\\cmTC_64f26.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_64f26.dir\\Debug\\cmTC_64f26.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /openmp /Fo"cmTC_64f26.dir\\Debug\\\\" /Fd"cmTC_64f26.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\Yolov4Website\\darknet\\CMakeFiles\\CMakeScratch\\TryCompile-zeah0y\\OpenMPTryFlag.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.37.32825 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          OpenMPTryFlag.c
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /openmp /Fo"cmTC_64f26.dir\\Debug\\\\" /Fd"cmTC_64f26.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\Yolov4Website\\darknet\\CMakeFiles\\CMakeScratch\\TryCompile-zeah0y\\OpenMPTryFlag.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Yolov4Website\\darknet\\CMakeFiles\\CMakeScratch\\TryCompile-zeah0y\\Debug\\cmTC_64f26.exe" /INCREMENTAL /ILK:"cmTC_64f26.dir\\Debug\\cmTC_64f26.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Yolov4Website/darknet/CMakeFiles/CMakeScratch/TryCompile-zeah0y/Debug/cmTC_64f26.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Yolov4Website/darknet/CMakeFiles/CMakeScratch/TryCompile-zeah0y/Debug/cmTC_64f26.lib" /MACHINE:X64  /machine:x64 cmTC_64f26.dir\\Debug\\OpenMPTryFlag.obj
+          cmTC_64f26.vcxproj -> D:\\Yolov4Website\\darknet\\CMakeFiles\\CMakeScratch\\TryCompile-zeah0y\\Debug\\cmTC_64f26.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_64f26.dir\\Debug\\cmTC_64f26.tlog\\unsuccessfulbuild".
+          Touching "cmTC_64f26.dir\\Debug\\cmTC_64f26.tlog\\cmTC_64f26.lastbuildstate".
+        Done Building Project "D:\\Yolov4Website\\darknet\\CMakeFiles\\CMakeScratch\\TryCompile-zeah0y\\cmTC_64f26.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:01.72
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/FindOpenMP.cmake:219 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/FindOpenMP.cmake:483 (_OPENMP_GET_FLAGS)"
+      - "CMakeLists.txt:274 (find_package)"
+    description: "Detecting CXX OpenMP compiler info"
+    directories:
+      source: "D:/Yolov4Website/darknet/CMakeFiles/CMakeScratch/TryCompile-wokynb"
+      binary: "D:/Yolov4Website/darknet/CMakeFiles/CMakeScratch/TryCompile-wokynb"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/Yolov4Website/darknet/cmake/Modules/"
+    buildResult:
+      variable: "OpenMP_COMPILE_RESULT_CXX_openmp"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Yolov4Website/darknet/CMakeFiles/CMakeScratch/TryCompile-wokynb'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_6a8fd.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.7.2+d6990bcfa for .NET Framework
+        Build started 11/2/2023 12:58:11 AM.
+        
+        Project "D:\\Yolov4Website\\darknet\\CMakeFiles\\CMakeScratch\\TryCompile-wokynb\\cmTC_6a8fd.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_6a8fd.dir\\Debug\\".
+          Creating directory "D:\\Yolov4Website\\darknet\\CMakeFiles\\CMakeScratch\\TryCompile-wokynb\\Debug\\".
+          Creating directory "cmTC_6a8fd.dir\\Debug\\cmTC_6a8fd.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_6a8fd.dir\\Debug\\cmTC_6a8fd.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_6a8fd.dir\\Debug\\cmTC_6a8fd.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /openmp /Fo"cmTC_6a8fd.dir\\Debug\\\\" /Fd"cmTC_6a8fd.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "D:\\Yolov4Website\\darknet\\CMakeFiles\\CMakeScratch\\TryCompile-wokynb\\OpenMPTryFlag.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.37.32825 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          OpenMPTryFlag.cpp
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /openmp /Fo"cmTC_6a8fd.dir\\Debug\\\\" /Fd"cmTC_6a8fd.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "D:\\Yolov4Website\\darknet\\CMakeFiles\\CMakeScratch\\TryCompile-wokynb\\OpenMPTryFlag.cpp"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Yolov4Website\\darknet\\CMakeFiles\\CMakeScratch\\TryCompile-wokynb\\Debug\\cmTC_6a8fd.exe" /INCREMENTAL /ILK:"cmTC_6a8fd.dir\\Debug\\cmTC_6a8fd.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Yolov4Website/darknet/CMakeFiles/CMakeScratch/TryCompile-wokynb/Debug/cmTC_6a8fd.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Yolov4Website/darknet/CMakeFiles/CMakeScratch/TryCompile-wokynb/Debug/cmTC_6a8fd.lib" /MACHINE:X64  /machine:x64 cmTC_6a8fd.dir\\Debug\\OpenMPTryFlag.obj
+          cmTC_6a8fd.vcxproj -> D:\\Yolov4Website\\darknet\\CMakeFiles\\CMakeScratch\\TryCompile-wokynb\\Debug\\cmTC_6a8fd.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_6a8fd.dir\\Debug\\cmTC_6a8fd.tlog\\unsuccessfulbuild".
+          Touching "cmTC_6a8fd.dir\\Debug\\cmTC_6a8fd.tlog\\cmTC_6a8fd.lastbuildstate".
+        Done Building Project "D:\\Yolov4Website\\darknet\\CMakeFiles\\CMakeScratch\\TryCompile-wokynb\\cmTC_6a8fd.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:01.65
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/FindOpenMP.cmake:419 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/FindOpenMP.cmake:557 (_OPENMP_GET_SPEC_DATE)"
+      - "CMakeLists.txt:274 (find_package)"
+    description: "Detecting C OpenMP version"
+    directories:
+      source: "D:/Yolov4Website/darknet/CMakeFiles/CMakeScratch/TryCompile-vmc545"
+      binary: "D:/Yolov4Website/darknet/CMakeFiles/CMakeScratch/TryCompile-vmc545"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/Yolov4Website/darknet/cmake/Modules/"
+    buildResult:
+      variable: "OpenMP_SPECTEST_C_"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Yolov4Website/darknet/CMakeFiles/CMakeScratch/TryCompile-vmc545'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_04dc1.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.7.2+d6990bcfa for .NET Framework
+        Build started 11/2/2023 12:58:13 AM.
+        
+        Project "D:\\Yolov4Website\\darknet\\CMakeFiles\\CMakeScratch\\TryCompile-vmc545\\cmTC_04dc1.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_04dc1.dir\\Debug\\".
+          Creating directory "D:\\Yolov4Website\\darknet\\CMakeFiles\\CMakeScratch\\TryCompile-vmc545\\Debug\\".
+          Creating directory "cmTC_04dc1.dir\\Debug\\cmTC_04dc1.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_04dc1.dir\\Debug\\cmTC_04dc1.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_04dc1.dir\\Debug\\cmTC_04dc1.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /openmp /Fo"cmTC_04dc1.dir\\Debug\\\\" /Fd"cmTC_04dc1.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\Yolov4Website\\darknet\\CMakeFiles\\CMakeScratch\\TryCompile-vmc545\\OpenMPCheckVersion.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.37.32825 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          OpenMPCheckVersion.c
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /openmp /Fo"cmTC_04dc1.dir\\Debug\\\\" /Fd"cmTC_04dc1.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\Yolov4Website\\darknet\\CMakeFiles\\CMakeScratch\\TryCompile-vmc545\\OpenMPCheckVersion.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Yolov4Website\\darknet\\CMakeFiles\\CMakeScratch\\TryCompile-vmc545\\Debug\\cmTC_04dc1.exe" /INCREMENTAL /ILK:"cmTC_04dc1.dir\\Debug\\cmTC_04dc1.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Yolov4Website/darknet/CMakeFiles/CMakeScratch/TryCompile-vmc545/Debug/cmTC_04dc1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Yolov4Website/darknet/CMakeFiles/CMakeScratch/TryCompile-vmc545/Debug/cmTC_04dc1.lib" /MACHINE:X64  /machine:x64 cmTC_04dc1.dir\\Debug\\OpenMPCheckVersion.obj
+          cmTC_04dc1.vcxproj -> D:\\Yolov4Website\\darknet\\CMakeFiles\\CMakeScratch\\TryCompile-vmc545\\Debug\\cmTC_04dc1.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_04dc1.dir\\Debug\\cmTC_04dc1.tlog\\unsuccessfulbuild".
+          Touching "cmTC_04dc1.dir\\Debug\\cmTC_04dc1.tlog\\cmTC_04dc1.lastbuildstate".
+        Done Building Project "D:\\Yolov4Website\\darknet\\CMakeFiles\\CMakeScratch\\TryCompile-vmc545\\cmTC_04dc1.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:01.62
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/FindOpenMP.cmake:419 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.27/Modules/FindOpenMP.cmake:557 (_OPENMP_GET_SPEC_DATE)"
+      - "CMakeLists.txt:274 (find_package)"
+    description: "Detecting CXX OpenMP version"
+    directories:
+      source: "D:/Yolov4Website/darknet/CMakeFiles/CMakeScratch/TryCompile-zstgq0"
+      binary: "D:/Yolov4Website/darknet/CMakeFiles/CMakeScratch/TryCompile-zstgq0"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/Yolov4Website/darknet/cmake/Modules/"
+    buildResult:
+      variable: "OpenMP_SPECTEST_CXX_"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Yolov4Website/darknet/CMakeFiles/CMakeScratch/TryCompile-zstgq0'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_d231d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.7.2+d6990bcfa for .NET Framework
+        Build started 11/2/2023 12:58:16 AM.
+        
+        Project "D:\\Yolov4Website\\darknet\\CMakeFiles\\CMakeScratch\\TryCompile-zstgq0\\cmTC_d231d.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_d231d.dir\\Debug\\".
+          Creating directory "D:\\Yolov4Website\\darknet\\CMakeFiles\\CMakeScratch\\TryCompile-zstgq0\\Debug\\".
+          Creating directory "cmTC_d231d.dir\\Debug\\cmTC_d231d.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_d231d.dir\\Debug\\cmTC_d231d.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_d231d.dir\\Debug\\cmTC_d231d.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /openmp /Fo"cmTC_d231d.dir\\Debug\\\\" /Fd"cmTC_d231d.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "D:\\Yolov4Website\\darknet\\CMakeFiles\\CMakeScratch\\TryCompile-zstgq0\\OpenMPCheckVersion.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.37.32825 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          OpenMPCheckVersion.cpp
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /openmp /Fo"cmTC_d231d.dir\\Debug\\\\" /Fd"cmTC_d231d.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "D:\\Yolov4Website\\darknet\\CMakeFiles\\CMakeScratch\\TryCompile-zstgq0\\OpenMPCheckVersion.cpp"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Yolov4Website\\darknet\\CMakeFiles\\CMakeScratch\\TryCompile-zstgq0\\Debug\\cmTC_d231d.exe" /INCREMENTAL /ILK:"cmTC_d231d.dir\\Debug\\cmTC_d231d.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Yolov4Website/darknet/CMakeFiles/CMakeScratch/TryCompile-zstgq0/Debug/cmTC_d231d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Yolov4Website/darknet/CMakeFiles/CMakeScratch/TryCompile-zstgq0/Debug/cmTC_d231d.lib" /MACHINE:X64  /machine:x64 cmTC_d231d.dir\\Debug\\OpenMPCheckVersion.obj
+          cmTC_d231d.vcxproj -> D:\\Yolov4Website\\darknet\\CMakeFiles\\CMakeScratch\\TryCompile-zstgq0\\Debug\\cmTC_d231d.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_d231d.dir\\Debug\\cmTC_d231d.tlog\\unsuccessfulbuild".
+          Touching "cmTC_d231d.dir\\Debug\\cmTC_d231d.tlog\\cmTC_d231d.lastbuildstate".
+        Done Building Project "D:\\Yolov4Website\\darknet\\CMakeFiles\\CMakeScratch\\TryCompile-zstgq0\\cmTC_d231d.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:01.64
+        
+      exitCode: 0
+...

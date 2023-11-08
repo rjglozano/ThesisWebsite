@@ -1,0 +1,478 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{D5E74C45-63B7-3A30-958D-53F55BA05D96}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>darknet</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Yolov4Website\darknet\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">darknet.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">darknet</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Yolov4Website\darknet\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">darknet.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">darknet</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Yolov4Website\darknet\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">darknet.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">darknet</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Yolov4Website\darknet\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">darknet.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">darknet</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Yolov4Website\darknet\include;D:\Yolov4Website\darknet\src;D:\Yolov4Website\darknet\3rdparty\stb\include;D:\Yolov4Website\darknet\3rdparty\getopt;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/opencv/build/include" /external:I "D:/Yolov4Website/darknet/3rdparty/pthreads/include"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4013;4018;4028;4047;4068;4090;4101;4113;4133;4190;4244;4267;4305;4477;4996;4819</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;USE_CMAKE_LIBS;OPENCV;_CRT_RAND_S;NOMINMAX;_USE_MATH_DEFINES;_TIMESPEC_DEFINED;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;USE_CMAKE_LIBS;OPENCV;_CRT_RAND_S;NOMINMAX;_USE_MATH_DEFINES;_TIMESPEC_DEFINED;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Yolov4Website\darknet\include;D:\Yolov4Website\darknet\src;D:\Yolov4Website\darknet\3rdparty\stb\include;D:\Yolov4Website\darknet\3rdparty\getopt;C:\opencv\build\include;D:\Yolov4Website\darknet\3rdparty\pthreads\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Yolov4Website\darknet\include;D:\Yolov4Website\darknet\src;D:\Yolov4Website\darknet\3rdparty\stb\include;D:\Yolov4Website\darknet\3rdparty\getopt;C:\opencv\build\include;D:\Yolov4Website\darknet\3rdparty\pthreads\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\opencv\build\x64\vc14\lib\opencv_world455d.lib;C:\opencv\build\x64\vc14\lib\opencv_world455d.lib;C:\opencv\build\x64\vc14\lib\opencv_world455d.lib;C:\opencv\build\x64\vc14\lib\opencv_world455d.lib;C:\opencv\build\x64\vc14\lib\opencv_world455d.lib;C:\opencv\build\x64\vc14\lib\opencv_world455d.lib;C:\opencv\build\x64\vc14\lib\opencv_world455d.lib;C:\opencv\build\x64\vc14\lib\opencv_world455d.lib;C:\opencv\build\x64\vc14\lib\opencv_world455d.lib;C:\opencv\build\x64\vc14\lib\opencv_world455d.lib;C:\opencv\build\x64\vc14\lib\opencv_world455d.lib;C:\opencv\build\x64\vc14\lib\opencv_world455d.lib;C:\opencv\build\x64\vc14\lib\opencv_world455d.lib;C:\opencv\build\x64\vc14\lib\opencv_world455d.lib;C:\opencv\build\x64\vc14\lib\opencv_world455d.lib;C:\opencv\build\x64\vc14\lib\opencv_world455d.lib;3rdparty\pthreads\lib\pthreadVC2.lib;wsock32.lib;ws2_32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Yolov4Website/darknet/Debug/darknet.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Yolov4Website/darknet/Debug/darknet.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Yolov4Website\darknet\include;D:\Yolov4Website\darknet\src;D:\Yolov4Website\darknet\3rdparty\stb\include;D:\Yolov4Website\darknet\3rdparty\getopt;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/opencv/build/include" /external:I "D:/Yolov4Website/darknet/3rdparty/pthreads/include"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DisableSpecificWarnings>4013;4018;4028;4047;4068;4090;4101;4113;4133;4190;4244;4267;4305;4477;4996;4819</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>Full</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;USE_CMAKE_LIBS;OPENCV;_CRT_RAND_S;NOMINMAX;_USE_MATH_DEFINES;_TIMESPEC_DEFINED;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;USE_CMAKE_LIBS;OPENCV;_CRT_RAND_S;NOMINMAX;_USE_MATH_DEFINES;_TIMESPEC_DEFINED;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Yolov4Website\darknet\include;D:\Yolov4Website\darknet\src;D:\Yolov4Website\darknet\3rdparty\stb\include;D:\Yolov4Website\darknet\3rdparty\getopt;C:\opencv\build\include;D:\Yolov4Website\darknet\3rdparty\pthreads\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Yolov4Website\darknet\include;D:\Yolov4Website\darknet\src;D:\Yolov4Website\darknet\3rdparty\stb\include;D:\Yolov4Website\darknet\3rdparty\getopt;C:\opencv\build\include;D:\Yolov4Website\darknet\3rdparty\pthreads\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\opencv\build\x64\vc14\lib\opencv_world455.lib;C:\opencv\build\x64\vc14\lib\opencv_world455.lib;C:\opencv\build\x64\vc14\lib\opencv_world455.lib;C:\opencv\build\x64\vc14\lib\opencv_world455.lib;C:\opencv\build\x64\vc14\lib\opencv_world455.lib;C:\opencv\build\x64\vc14\lib\opencv_world455.lib;C:\opencv\build\x64\vc14\lib\opencv_world455.lib;C:\opencv\build\x64\vc14\lib\opencv_world455.lib;C:\opencv\build\x64\vc14\lib\opencv_world455.lib;C:\opencv\build\x64\vc14\lib\opencv_world455.lib;C:\opencv\build\x64\vc14\lib\opencv_world455.lib;C:\opencv\build\x64\vc14\lib\opencv_world455.lib;C:\opencv\build\x64\vc14\lib\opencv_world455.lib;C:\opencv\build\x64\vc14\lib\opencv_world455.lib;C:\opencv\build\x64\vc14\lib\opencv_world455.lib;C:\opencv\build\x64\vc14\lib\opencv_world455.lib;3rdparty\pthreads\lib\pthreadVC2.lib;wsock32.lib;ws2_32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Yolov4Website/darknet/Release/darknet.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Yolov4Website/darknet/Release/darknet.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Yolov4Website\darknet\include;D:\Yolov4Website\darknet\src;D:\Yolov4Website\darknet\3rdparty\stb\include;D:\Yolov4Website\darknet\3rdparty\getopt;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/opencv/build/include" /external:I "D:/Yolov4Website/darknet/3rdparty/pthreads/include"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DisableSpecificWarnings>4013;4018;4028;4047;4068;4090;4101;4113;4133;4190;4244;4267;4305;4477;4996;4819</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;USE_CMAKE_LIBS;OPENCV;_CRT_RAND_S;NOMINMAX;_USE_MATH_DEFINES;_TIMESPEC_DEFINED;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;USE_CMAKE_LIBS;OPENCV;_CRT_RAND_S;NOMINMAX;_USE_MATH_DEFINES;_TIMESPEC_DEFINED;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Yolov4Website\darknet\include;D:\Yolov4Website\darknet\src;D:\Yolov4Website\darknet\3rdparty\stb\include;D:\Yolov4Website\darknet\3rdparty\getopt;C:\opencv\build\include;D:\Yolov4Website\darknet\3rdparty\pthreads\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Yolov4Website\darknet\include;D:\Yolov4Website\darknet\src;D:\Yolov4Website\darknet\3rdparty\stb\include;D:\Yolov4Website\darknet\3rdparty\getopt;C:\opencv\build\include;D:\Yolov4Website\darknet\3rdparty\pthreads\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\opencv\build\x64\vc14\lib\opencv_world455.lib;C:\opencv\build\x64\vc14\lib\opencv_world455.lib;C:\opencv\build\x64\vc14\lib\opencv_world455.lib;C:\opencv\build\x64\vc14\lib\opencv_world455.lib;C:\opencv\build\x64\vc14\lib\opencv_world455.lib;C:\opencv\build\x64\vc14\lib\opencv_world455.lib;C:\opencv\build\x64\vc14\lib\opencv_world455.lib;C:\opencv\build\x64\vc14\lib\opencv_world455.lib;C:\opencv\build\x64\vc14\lib\opencv_world455.lib;C:\opencv\build\x64\vc14\lib\opencv_world455.lib;C:\opencv\build\x64\vc14\lib\opencv_world455.lib;C:\opencv\build\x64\vc14\lib\opencv_world455.lib;C:\opencv\build\x64\vc14\lib\opencv_world455.lib;C:\opencv\build\x64\vc14\lib\opencv_world455.lib;C:\opencv\build\x64\vc14\lib\opencv_world455.lib;C:\opencv\build\x64\vc14\lib\opencv_world455.lib;3rdparty\pthreads\lib\pthreadVC2.lib;wsock32.lib;ws2_32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Yolov4Website/darknet/MinSizeRel/darknet.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Yolov4Website/darknet/MinSizeRel/darknet.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Yolov4Website\darknet\include;D:\Yolov4Website\darknet\src;D:\Yolov4Website\darknet\3rdparty\stb\include;D:\Yolov4Website\darknet\3rdparty\getopt;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/opencv/build/include" /external:I "D:/Yolov4Website/darknet/3rdparty/pthreads/include"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4013;4018;4028;4047;4068;4090;4101;4113;4133;4190;4244;4267;4305;4477;4996;4819</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;USE_CMAKE_LIBS;OPENCV;_CRT_RAND_S;NOMINMAX;_USE_MATH_DEFINES;_TIMESPEC_DEFINED;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;USE_CMAKE_LIBS;OPENCV;_CRT_RAND_S;NOMINMAX;_USE_MATH_DEFINES;_TIMESPEC_DEFINED;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Yolov4Website\darknet\include;D:\Yolov4Website\darknet\src;D:\Yolov4Website\darknet\3rdparty\stb\include;D:\Yolov4Website\darknet\3rdparty\getopt;C:\opencv\build\include;D:\Yolov4Website\darknet\3rdparty\pthreads\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Yolov4Website\darknet\include;D:\Yolov4Website\darknet\src;D:\Yolov4Website\darknet\3rdparty\stb\include;D:\Yolov4Website\darknet\3rdparty\getopt;C:\opencv\build\include;D:\Yolov4Website\darknet\3rdparty\pthreads\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\opencv\build\x64\vc14\lib\opencv_world455.lib;C:\opencv\build\x64\vc14\lib\opencv_world455.lib;C:\opencv\build\x64\vc14\lib\opencv_world455.lib;C:\opencv\build\x64\vc14\lib\opencv_world455.lib;C:\opencv\build\x64\vc14\lib\opencv_world455.lib;C:\opencv\build\x64\vc14\lib\opencv_world455.lib;C:\opencv\build\x64\vc14\lib\opencv_world455.lib;C:\opencv\build\x64\vc14\lib\opencv_world455.lib;C:\opencv\build\x64\vc14\lib\opencv_world455.lib;C:\opencv\build\x64\vc14\lib\opencv_world455.lib;C:\opencv\build\x64\vc14\lib\opencv_world455.lib;C:\opencv\build\x64\vc14\lib\opencv_world455.lib;C:\opencv\build\x64\vc14\lib\opencv_world455.lib;C:\opencv\build\x64\vc14\lib\opencv_world455.lib;C:\opencv\build\x64\vc14\lib\opencv_world455.lib;C:\opencv\build\x64\vc14\lib\opencv_world455.lib;3rdparty\pthreads\lib\pthreadVC2.lib;wsock32.lib;ws2_32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Yolov4Website/darknet/RelWithDebInfo/darknet.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Yolov4Website/darknet/RelWithDebInfo/darknet.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Yolov4Website\darknet\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/Yolov4Website/darknet/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Yolov4Website/darknet -BD:/Yolov4Website/darknet --check-stamp-file D:/Yolov4Website/darknet/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.27\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindOpenMP.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\InstallRequiredSystemLibraries.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\SelectLibraryConfigurations.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\WriteBasicConfigVersionFile.cmake;C:\Program Files\CMake\share\cmake-3.27\Templates\CPackConfig.cmake.in;C:\opencv\build\x64\vc14\lib\OpenCVConfig-version.cmake;C:\opencv\build\x64\vc14\lib\OpenCVConfig.cmake;C:\opencv\build\x64\vc14\lib\OpenCVModules-debug.cmake;C:\opencv\build\x64\vc14\lib\OpenCVModules-release.cmake;C:\opencv\build\x64\vc14\lib\OpenCVModules.cmake;D:\Yolov4Website\darknet\CMakeFiles\3.27.7\CMakeCCompiler.cmake;D:\Yolov4Website\darknet\CMakeFiles\3.27.7\CMakeCXXCompiler.cmake;D:\Yolov4Website\darknet\CMakeFiles\3.27.7\CMakeRCCompiler.cmake;D:\Yolov4Website\darknet\CMakeFiles\3.27.7\CMakeSystem.cmake;D:\Yolov4Website\darknet\DarknetConfig.cmake.in;D:\Yolov4Website\darknet\cmake\Modules\FindPThreads4W.cmake;D:\Yolov4Website\darknet\cmake\Modules\FindStb.cmake;D:\Yolov4Website\darknet\src\version.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Yolov4Website\darknet\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/Yolov4Website/darknet/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Yolov4Website/darknet -BD:/Yolov4Website/darknet --check-stamp-file D:/Yolov4Website/darknet/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.27\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindOpenMP.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\InstallRequiredSystemLibraries.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\SelectLibraryConfigurations.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\WriteBasicConfigVersionFile.cmake;C:\Program Files\CMake\share\cmake-3.27\Templates\CPackConfig.cmake.in;C:\opencv\build\x64\vc14\lib\OpenCVConfig-version.cmake;C:\opencv\build\x64\vc14\lib\OpenCVConfig.cmake;C:\opencv\build\x64\vc14\lib\OpenCVModules-debug.cmake;C:\opencv\build\x64\vc14\lib\OpenCVModules-release.cmake;C:\opencv\build\x64\vc14\lib\OpenCVModules.cmake;D:\Yolov4Website\darknet\CMakeFiles\3.27.7\CMakeCCompiler.cmake;D:\Yolov4Website\darknet\CMakeFiles\3.27.7\CMakeCXXCompiler.cmake;D:\Yolov4Website\darknet\CMakeFiles\3.27.7\CMakeRCCompiler.cmake;D:\Yolov4Website\darknet\CMakeFiles\3.27.7\CMakeSystem.cmake;D:\Yolov4Website\darknet\DarknetConfig.cmake.in;D:\Yolov4Website\darknet\cmake\Modules\FindPThreads4W.cmake;D:\Yolov4Website\darknet\cmake\Modules\FindStb.cmake;D:\Yolov4Website\darknet\src\version.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Yolov4Website\darknet\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/Yolov4Website/darknet/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Yolov4Website/darknet -BD:/Yolov4Website/darknet --check-stamp-file D:/Yolov4Website/darknet/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.27\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindOpenMP.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\InstallRequiredSystemLibraries.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\SelectLibraryConfigurations.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\WriteBasicConfigVersionFile.cmake;C:\Program Files\CMake\share\cmake-3.27\Templates\CPackConfig.cmake.in;C:\opencv\build\x64\vc14\lib\OpenCVConfig-version.cmake;C:\opencv\build\x64\vc14\lib\OpenCVConfig.cmake;C:\opencv\build\x64\vc14\lib\OpenCVModules-debug.cmake;C:\opencv\build\x64\vc14\lib\OpenCVModules-release.cmake;C:\opencv\build\x64\vc14\lib\OpenCVModules.cmake;D:\Yolov4Website\darknet\CMakeFiles\3.27.7\CMakeCCompiler.cmake;D:\Yolov4Website\darknet\CMakeFiles\3.27.7\CMakeCXXCompiler.cmake;D:\Yolov4Website\darknet\CMakeFiles\3.27.7\CMakeRCCompiler.cmake;D:\Yolov4Website\darknet\CMakeFiles\3.27.7\CMakeSystem.cmake;D:\Yolov4Website\darknet\DarknetConfig.cmake.in;D:\Yolov4Website\darknet\cmake\Modules\FindPThreads4W.cmake;D:\Yolov4Website\darknet\cmake\Modules\FindStb.cmake;D:\Yolov4Website\darknet\src\version.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Yolov4Website\darknet\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/Yolov4Website/darknet/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Yolov4Website/darknet -BD:/Yolov4Website/darknet --check-stamp-file D:/Yolov4Website/darknet/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.27\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindOpenMP.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\InstallRequiredSystemLibraries.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\SelectLibraryConfigurations.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\WriteBasicConfigVersionFile.cmake;C:\Program Files\CMake\share\cmake-3.27\Templates\CPackConfig.cmake.in;C:\opencv\build\x64\vc14\lib\OpenCVConfig-version.cmake;C:\opencv\build\x64\vc14\lib\OpenCVConfig.cmake;C:\opencv\build\x64\vc14\lib\OpenCVModules-debug.cmake;C:\opencv\build\x64\vc14\lib\OpenCVModules-release.cmake;C:\opencv\build\x64\vc14\lib\OpenCVModules.cmake;D:\Yolov4Website\darknet\CMakeFiles\3.27.7\CMakeCCompiler.cmake;D:\Yolov4Website\darknet\CMakeFiles\3.27.7\CMakeCXXCompiler.cmake;D:\Yolov4Website\darknet\CMakeFiles\3.27.7\CMakeRCCompiler.cmake;D:\Yolov4Website\darknet\CMakeFiles\3.27.7\CMakeSystem.cmake;D:\Yolov4Website\darknet\DarknetConfig.cmake.in;D:\Yolov4Website\darknet\cmake\Modules\FindPThreads4W.cmake;D:\Yolov4Website\darknet\cmake\Modules\FindStb.cmake;D:\Yolov4Website\darknet\src\version.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Yolov4Website\darknet\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\Yolov4Website\darknet\src\darknet.c" />
+    <ClCompile Include="D:\Yolov4Website\darknet\src\activation_layer.c" />
+    <ClCompile Include="D:\Yolov4Website\darknet\src\activations.c" />
+    <ClCompile Include="D:\Yolov4Website\darknet\src\art.c" />
+    <ClCompile Include="D:\Yolov4Website\darknet\src\avgpool_layer.c" />
+    <ClCompile Include="D:\Yolov4Website\darknet\src\batchnorm_layer.c" />
+    <ClCompile Include="D:\Yolov4Website\darknet\src\blas.c" />
+    <ClCompile Include="D:\Yolov4Website\darknet\src\box.c" />
+    <ClCompile Include="D:\Yolov4Website\darknet\src\captcha.c" />
+    <ClCompile Include="D:\Yolov4Website\darknet\src\cifar.c" />
+    <ClCompile Include="D:\Yolov4Website\darknet\src\classifier.c" />
+    <ClCompile Include="D:\Yolov4Website\darknet\src\coco.c" />
+    <ClCompile Include="D:\Yolov4Website\darknet\src\col2im.c" />
+    <ClCompile Include="D:\Yolov4Website\darknet\src\compare.c" />
+    <ClCompile Include="D:\Yolov4Website\darknet\src\connected_layer.c" />
+    <ClCompile Include="D:\Yolov4Website\darknet\src\conv_lstm_layer.c" />
+    <ClCompile Include="D:\Yolov4Website\darknet\src\convolutional_layer.c" />
+    <ClCompile Include="D:\Yolov4Website\darknet\src\cost_layer.c" />
+    <ClCompile Include="D:\Yolov4Website\darknet\src\cpu_gemm.c" />
+    <ClCompile Include="D:\Yolov4Website\darknet\src\crnn_layer.c" />
+    <ClCompile Include="D:\Yolov4Website\darknet\src\crop_layer.c" />
+    <ClCompile Include="D:\Yolov4Website\darknet\src\dark_cuda.c" />
+    <ClCompile Include="D:\Yolov4Website\darknet\src\data.c" />
+    <ClCompile Include="D:\Yolov4Website\darknet\src\deconvolutional_layer.c" />
+    <ClCompile Include="D:\Yolov4Website\darknet\src\demo.c" />
+    <ClCompile Include="D:\Yolov4Website\darknet\src\detection_layer.c" />
+    <ClCompile Include="D:\Yolov4Website\darknet\src\detector.c" />
+    <ClCompile Include="D:\Yolov4Website\darknet\src\dice.c" />
+    <ClCompile Include="D:\Yolov4Website\darknet\src\dropout_layer.c" />
+    <ClCompile Include="D:\Yolov4Website\darknet\src\gaussian_yolo_layer.c" />
+    <ClCompile Include="D:\Yolov4Website\darknet\src\gemm.c" />
+    <ClCompile Include="D:\Yolov4Website\darknet\src\gettimeofday.c" />
+    <ClCompile Include="D:\Yolov4Website\darknet\src\go.c" />
+    <ClCompile Include="D:\Yolov4Website\darknet\src\gru_layer.c" />
+    <ClCompile Include="D:\Yolov4Website\darknet\src\im2col.c" />
+    <ClCompile Include="D:\Yolov4Website\darknet\src\image.c" />
+    <ClCompile Include="D:\Yolov4Website\darknet\src\layer.c" />
+    <ClCompile Include="D:\Yolov4Website\darknet\src\list.c" />
+    <ClCompile Include="D:\Yolov4Website\darknet\src\local_layer.c" />
+    <ClCompile Include="D:\Yolov4Website\darknet\src\lstm_layer.c" />
+    <ClCompile Include="D:\Yolov4Website\darknet\src\matrix.c" />
+    <ClCompile Include="D:\Yolov4Website\darknet\src\maxpool_layer.c" />
+    <ClCompile Include="D:\Yolov4Website\darknet\src\network.c" />
+    <ClCompile Include="D:\Yolov4Website\darknet\src\nightmare.c" />
+    <ClCompile Include="D:\Yolov4Website\darknet\src\normalization_layer.c" />
+    <ClCompile Include="D:\Yolov4Website\darknet\src\option_list.c" />
+    <ClCompile Include="D:\Yolov4Website\darknet\src\parser.c" />
+    <ClCompile Include="D:\Yolov4Website\darknet\src\region_layer.c" />
+    <ClCompile Include="D:\Yolov4Website\darknet\src\reorg_layer.c" />
+    <ClCompile Include="D:\Yolov4Website\darknet\src\reorg_old_layer.c" />
+    <ClCompile Include="D:\Yolov4Website\darknet\src\representation_layer.c" />
+    <ClCompile Include="D:\Yolov4Website\darknet\src\rnn.c" />
+    <ClCompile Include="D:\Yolov4Website\darknet\src\rnn_layer.c" />
+    <ClCompile Include="D:\Yolov4Website\darknet\src\rnn_vid.c" />
+    <ClCompile Include="D:\Yolov4Website\darknet\src\route_layer.c" />
+    <ClCompile Include="D:\Yolov4Website\darknet\src\sam_layer.c" />
+    <ClCompile Include="D:\Yolov4Website\darknet\src\scale_channels_layer.c" />
+    <ClCompile Include="D:\Yolov4Website\darknet\src\shortcut_layer.c" />
+    <ClCompile Include="D:\Yolov4Website\darknet\src\softmax_layer.c" />
+    <ClCompile Include="D:\Yolov4Website\darknet\src\super.c" />
+    <ClCompile Include="D:\Yolov4Website\darknet\src\swag.c" />
+    <ClCompile Include="D:\Yolov4Website\darknet\src\tag.c" />
+    <ClCompile Include="D:\Yolov4Website\darknet\src\tree.c" />
+    <ClCompile Include="D:\Yolov4Website\darknet\src\upsample_layer.c" />
+    <ClCompile Include="D:\Yolov4Website\darknet\src\utils.c" />
+    <ClCompile Include="D:\Yolov4Website\darknet\src\voxel.c" />
+    <ClCompile Include="D:\Yolov4Website\darknet\src\writing.c" />
+    <ClCompile Include="D:\Yolov4Website\darknet\src\yolo.c" />
+    <ClCompile Include="D:\Yolov4Website\darknet\src\yolo_layer.c" />
+    <ClCompile Include="D:\Yolov4Website\darknet\src\http_stream.cpp" />
+    <ClCompile Include="D:\Yolov4Website\darknet\src\image_opencv.cpp" />
+    <ClCompile Include="D:\Yolov4Website\darknet\3rdparty\getopt\getopt.c" />
+    <ClInclude Include="D:\Yolov4Website\darknet\3rdparty\getopt\getopt.h" />
+    <ClInclude Include="D:\Yolov4Website\darknet\src\activation_layer.h" />
+    <ClInclude Include="D:\Yolov4Website\darknet\src\activations.h" />
+    <ClInclude Include="D:\Yolov4Website\darknet\src\avgpool_layer.h" />
+    <ClInclude Include="D:\Yolov4Website\darknet\src\batchnorm_layer.h" />
+    <ClInclude Include="D:\Yolov4Website\darknet\src\blas.h" />
+    <ClInclude Include="D:\Yolov4Website\darknet\src\box.h" />
+    <ClInclude Include="D:\Yolov4Website\darknet\src\classifier.h" />
+    <ClInclude Include="D:\Yolov4Website\darknet\src\col2im.h" />
+    <ClInclude Include="D:\Yolov4Website\darknet\src\connected_layer.h" />
+    <ClInclude Include="D:\Yolov4Website\darknet\src\conv_lstm_layer.h" />
+    <ClInclude Include="D:\Yolov4Website\darknet\src\convolutional_layer.h" />
+    <ClInclude Include="D:\Yolov4Website\darknet\src\cost_layer.h" />
+    <ClInclude Include="D:\Yolov4Website\darknet\src\crnn_layer.h" />
+    <ClInclude Include="D:\Yolov4Website\darknet\src\crop_layer.h" />
+    <ClInclude Include="D:\Yolov4Website\darknet\src\dark_cuda.h" />
+    <ClInclude Include="D:\Yolov4Website\darknet\src\darkunistd.h" />
+    <ClInclude Include="D:\Yolov4Website\darknet\src\data.h" />
+    <ClInclude Include="D:\Yolov4Website\darknet\src\deconvolutional_layer.h" />
+    <ClInclude Include="D:\Yolov4Website\darknet\src\demo.h" />
+    <ClInclude Include="D:\Yolov4Website\darknet\src\detection_layer.h" />
+    <ClInclude Include="D:\Yolov4Website\darknet\src\dropout_layer.h" />
+    <ClInclude Include="D:\Yolov4Website\darknet\src\gaussian_yolo_layer.h" />
+    <ClInclude Include="D:\Yolov4Website\darknet\src\gemm.h" />
+    <ClInclude Include="D:\Yolov4Website\darknet\src\gettimeofday.h" />
+    <ClInclude Include="D:\Yolov4Website\darknet\src\gru_layer.h" />
+    <ClInclude Include="D:\Yolov4Website\darknet\src\http_stream.h" />
+    <ClInclude Include="D:\Yolov4Website\darknet\src\httplib.h" />
+    <ClInclude Include="D:\Yolov4Website\darknet\src\im2col.h" />
+    <ClInclude Include="D:\Yolov4Website\darknet\src\image.h" />
+    <ClInclude Include="D:\Yolov4Website\darknet\src\image_opencv.h" />
+    <ClInclude Include="D:\Yolov4Website\darknet\src\layer.h" />
+    <ClInclude Include="D:\Yolov4Website\darknet\src\list.h" />
+    <ClInclude Include="D:\Yolov4Website\darknet\src\local_layer.h" />
+    <ClInclude Include="D:\Yolov4Website\darknet\src\lstm_layer.h" />
+    <ClInclude Include="D:\Yolov4Website\darknet\src\matrix.h" />
+    <ClInclude Include="D:\Yolov4Website\darknet\src\maxpool_layer.h" />
+    <ClInclude Include="D:\Yolov4Website\darknet\src\network.h" />
+    <ClInclude Include="D:\Yolov4Website\darknet\src\normalization_layer.h" />
+    <ClInclude Include="D:\Yolov4Website\darknet\src\option_list.h" />
+    <ClInclude Include="D:\Yolov4Website\darknet\src\parser.h" />
+    <ClInclude Include="D:\Yolov4Website\darknet\src\region_layer.h" />
+    <ClInclude Include="D:\Yolov4Website\darknet\src\reorg_layer.h" />
+    <ClInclude Include="D:\Yolov4Website\darknet\src\reorg_old_layer.h" />
+    <ClInclude Include="D:\Yolov4Website\darknet\src\representation_layer.h" />
+    <ClInclude Include="D:\Yolov4Website\darknet\src\rnn_layer.h" />
+    <ClInclude Include="D:\Yolov4Website\darknet\src\route_layer.h" />
+    <ClInclude Include="D:\Yolov4Website\darknet\src\sam_layer.h" />
+    <ClInclude Include="D:\Yolov4Website\darknet\src\scale_channels_layer.h" />
+    <ClInclude Include="D:\Yolov4Website\darknet\src\shortcut_layer.h" />
+    <ClInclude Include="D:\Yolov4Website\darknet\src\softmax_layer.h" />
+    <ClInclude Include="D:\Yolov4Website\darknet\src\tree.h" />
+    <ClInclude Include="D:\Yolov4Website\darknet\src\upsample_layer.h" />
+    <ClInclude Include="D:\Yolov4Website\darknet\src\utils.h" />
+    <ClInclude Include="D:\Yolov4Website\darknet\src\version.h" />
+    <ClInclude Include="D:\Yolov4Website\darknet\src\yolo_layer.h" />
+    <ClInclude Include="D:\Yolov4Website\darknet\include\darknet.h" />
+    <ResourceCompile Include="D:\Yolov4Website\darknet\src\darknet.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\Yolov4Website\darknet\ZERO_CHECK.vcxproj">
+      <Project>{8F0743AD-EA96-3A6A-B858-5EF444F139E5}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

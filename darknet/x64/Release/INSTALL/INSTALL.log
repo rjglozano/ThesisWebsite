@@ -1,0 +1,21 @@
+﻿  1>
+  -- Install configuration: "Release"
+  -- Installing: D:/Yolov4Website/darknet/darknet.lib
+  -- Installing: D:/Yolov4Website/darknet/darknet.dll
+  -- Installing: D:/Yolov4Website/darknet/include/darknet/darknet.h
+  -- Installing: D:/Yolov4Website/darknet/include/darknet/yolo_v2_class.hpp
+  -- Installing: D:/Yolov4Website/darknet/uselib.exe
+  -- Installing: D:/Yolov4Website/darknet/darknet.exe
+  -- Installing: D:/Yolov4Website/darknet/kmeansiou.exe
+  -- Installing: D:/Yolov4Website/darknet/share/darknet/DarknetTargets.cmake
+  -- Installing: D:/Yolov4Website/darknet/share/darknet/DarknetTargets-release.cmake
+  -- Installing: D:/Yolov4Website/darknet/share/darknet/DarknetConfig.cmake
+  -- Installing: D:/Yolov4Website/darknet/share/darknet/DarknetConfigVersion.cmake
+  -- Installing: D:/Yolov4Website/darknet/msvcp140.dll
+  -- Installing: D:/Yolov4Website/darknet/msvcp140_1.dll
+  -- Installing: D:/Yolov4Website/darknet/msvcp140_2.dll
+  -- Installing: D:/Yolov4Website/darknet/msvcp140_atomic_wait.dll
+  -- Installing: D:/Yolov4Website/darknet/msvcp140_codecvt_ids.dll
+  -- Installing: D:/Yolov4Website/darknet/vcruntime140_1.dll
+  -- Installing: D:/Yolov4Website/darknet/vcruntime140.dll
+  -- Installing: D:/Yolov4Website/darknet/concrt140.dll
