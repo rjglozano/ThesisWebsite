@@ -2,13 +2,13 @@ import cv2
 import numpy as np
 
 # Load YOLOv4 model and weights
-net = cv2.dnn.readNet(r"D:\Yolov4Website\darknet\cfg\yolov4-obj.cfg", r"D:\Yolov4Website\darknet\weights\yolov4-obj_10000.weights")
+net = cv2.dnn.readNet(r"D:\Yolov4Website\ThesisWebsite\darknet\cfg\yolov4-obj.cfg", r"D:\Yolov4Website\ThesisWebsite\darknet\weights\yolov4-obj_8000.weights")
 
 # Load class names for the 9 vehicle types
 classes = ["bus", "car", "jeepney", "motorcycle", "tricycle", "truck", "van", "pickup", "bicycle"]
 
 # Load the image
-image = cv2.imread(r"D:\Yolov4Website\darknet\data\test2.jpg")
+image = cv2.imread(r"D:\Yolov4Website\ThesisWebsite\darknet\data\test2.jpg")
 
 # Prepare the image for YOLOv4
 blob = cv2.dnn.blobFromImage(image, 1/255.0, (416, 416), swapRB=True, crop=False)
@@ -29,7 +29,7 @@ for out in outs:
         scores = detection[5:]
         class_id = np.argmax(scores)
         confidence = scores[class_id]
-        if confidence > 0.3:
+        if confidence > 0.5:
             detected_class = classes[class_id]
             if detected_class in classes:
                 center_x = int(detection[0] * image.shape[1])
@@ -49,7 +49,10 @@ if len(boxes) > 0:
     boxes = np.array(boxes)
     confidences = boxes[:, 4]
     class_ids = boxes[:, 5]
-    indices = cv2.dnn.NMSBoxes(boxes[:, :4].tolist(), confidences.tolist(), 0.5, 0.4)
+    
+    unique_classes = set()
+
+    indices = cv2.dnn.NMSBoxes(boxes[:, :4].tolist(), confidences.tolist(), 0.5, 0.3)
 
     # Iterate through the filtered bounding boxes
     for i in indices:

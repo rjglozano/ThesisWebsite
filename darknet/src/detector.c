@@ -1705,9 +1705,9 @@ void test_detector(char *datacfg, char *cfgfile, char *weightfile, char *filenam
         }
         draw_detections_v3(im, dets, nboxes, thresh, names, alphabet, l.classes, ext_output);
         save_image(im, "predictions");
-        if (!dont_show) {
-            show_image(im, "predictions");
-        }
+        // if (!dont_show) {
+        //     show_image(im, "predictions");
+        // }
 
         if (json_file) {
             if (json_buf) {
@@ -1899,9 +1899,9 @@ void draw_object(char *datacfg, char *cfgfile, char *weightfile, char *filename,
         }
         draw_detections_v3(sized, dets, nboxes, thresh, names, alphabet, l.classes, 1);
         save_image(sized, "pre_predictions");
-        if (!dont_show) {
-            show_image(sized, "pre_predictions");
-        }
+        // if (!dont_show) {
+        //     show_image(sized, "pre_predictions");
+        // }
 
         free_detections(dets, nboxes);
         free_image(im);

@@ -1,0 +1,36 @@
+ GPU isn't used 
+ Used AVX 
+ Used FMA & AVX2 
+mini_batch = 1, batch = 1, time_steps = 1, train = 0 
+nms_kind: greedynms (1), beta = 0.600000 
+nms_kind: greedynms (1), beta = 0.600000 
+nms_kind: greedynms (1), beta = 0.600000 
+
+ seen 64, trained: 512 K-images (8 Kilo-batches_64) 
+ Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+image.jpg: Predicted in 1297.984000 milli-seconds.
+tricycle: 31%
+car: 96%
+jeepney: 44%
+car: 73%
+car: 39%
+jeepney: 97%
+car: 50%
+tricycle: 88%
+car: 38%
+car: 98%
+car: 95%
+jeepney: 93%
+van: 56%
+jeepney: 62%
+tricycle: 55%
+motorcycle: 62%
+car: 72%
+motorcycle: 65%
+tricycle: 35%
+car: 97%
+van: 88%
+jeepney: 40%
+car: 96%
