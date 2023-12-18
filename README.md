@@ -2,9 +2,7 @@
 
 ## ABSTRACT
 
-Vehicle detection and classification are crucial for traffic analysis. Moreover, accu-
-rate and effective traffic flow monitoring has faced numerous challenges and is a task that
-is only getting harder. It can be difficult to identify and locate cars in images and video
+Vehicle detection and classification are crucial for traffic analysis. Moreover, accurate and effective traffic flow monitoring has faced numerous challenges and is a task that is only getting harder. It can be difficult to identify and locate cars in images and video
 frames that contain car features because of interference and the proximity of the cars on
 the road. Furthermore, no datasets are available for local vehicles in the Philippines. The
 researchers made a customized dataset for the local cars in the Philippines. The propo-
